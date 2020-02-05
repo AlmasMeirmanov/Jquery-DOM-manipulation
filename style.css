@@ -1,0 +1,28 @@
+#slide {
+  border: 1px solid rgb(96, 214, 231);
+  list-style: none;
+  width: 500px;
+}
+.accordion {
+  border: 1px solid rgb(131, 185, 194);
+  width: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  font-size: 18px;
+  background-color: rgb(96, 214, 231);
+  transition: height 2s;
+  color: white;
+}
+.accordion:hover {
+  background-color: rgb(96, 214, 231);
+}
+.content {
+  height: 0;
+  overflow: hidden;
+  transition: 1s;
+  color: rgba(77, 75, 75, 0.616);
+}
+.show {
+  height: 200px;
+}
